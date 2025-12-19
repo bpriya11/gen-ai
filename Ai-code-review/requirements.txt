@@ -1,0 +1,9 @@
+langchain>=0.2.0
+langgraph[sqlite]>=0.0.60
+langchain-openai
+langchain-community
+mcp
+requests
+streamlit
+uvicorn
+faiss-cpu
