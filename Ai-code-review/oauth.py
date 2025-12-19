@@ -1,7 +1,7 @@
 import requests
 import time
 
-CLIENT_ID = "Ov23liR4KxPcvymjLEB2"  # from your OAuth app
+CLIENT_ID = os.environ.get("CLIENT_ID")  # from your OAuth app
 
 # Step 1: Get device/user codes
 resp = requests.post(
@@ -44,7 +44,3 @@ while True:
         break
 
     time.sleep(INTERVAL)
-
-
-# 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
-# pat: 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
